@@ -26,3 +26,4 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - run: echo $GREETING
       - run: echo ${{ env.DAY_OF_WEEK }}
+      - run: echo "demo CI/CD desde github actions"
